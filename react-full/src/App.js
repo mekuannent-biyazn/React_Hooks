@@ -1,4 +1,5 @@
 import "./App.css";
+import DataFeatching from "./react-Hooks/DataFeatching";
 import UseEffect from "./react-Hooks/UseEffect";
 import UseStateHook from "./react-Hooks/useState";
 import UseStateWithObject from "./react-Hooks/UseStateWithObject";
@@ -10,7 +11,8 @@ function App() {
       {/* <UseStateHook /> */}
       {/* <UseStateWithUpdate />
       <UseStateWithObject /> */}
-      <UseEffect />
+      {/* <UseEffect /> */}
+      <DataFeatching />
     </div>
   );
 }
