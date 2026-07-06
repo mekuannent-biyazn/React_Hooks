@@ -6,8 +6,7 @@ function UseContextHooks() {
   const chanel = useContext(ChanelContext);
   return (
     <div>
-      {" "}
-      {owner}- {chanel}
+      {owner}-{chanel}
     </div>
   );
 }
